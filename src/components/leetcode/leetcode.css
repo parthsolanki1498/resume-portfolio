@@ -1,0 +1,17 @@
+.leetcode__stats {
+    position: relative;
+    transition: var(--transition);
+    opacity: 50%;
+}
+
+.leetcode__stats img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 500px;
+    object-fit: contain;
+}
+
+.leetcode__stats:hover {
+    opacity: 100%;
+}

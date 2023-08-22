@@ -9,7 +9,9 @@ import Testimonal from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Leetcode from './components/leetcode/Leetcode'
+import LeetCodeButton from './components/leetcode/Leetcodebutton'
 import { ApolloProvider, ApolloClient, InMemoryCache, HttpLink, gql } from '@apollo/client'
+import Statsnav from './components/leetcode/statsnav/Statsnav'
 
 // const client = new ApolloClient({
 //   uri: 'https://leetcode.com/graphql',
@@ -61,7 +63,9 @@ const App = () => {
         {/* <ApolloProvider client={client}>
           <Leetcode />
         </ApolloProvider> */}
-        <Leetcode />
+        {/* <Leetcode /> */}
+        {/* <LeetCodeButton/> */}
+        <Statsnav/>
         <Header />
         <Nav/>
         <About/>

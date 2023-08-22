@@ -1,0 +1,49 @@
+.container__statsnav nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: absolute;
+    left: 95%;
+    bottom: 25rem;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.container__statsnav nav a {
+    position: relative;
+    background: transparent;
+    padding: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container__statsnav nav a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.container__statsnav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg)
+}
+
+
+/* ============== Media Queries (Medium Devices) ==============*/
+/* @media screen and (max-width: 1024px){
+    .container__statsnav nav {
+        position: absolute;
+    }
+} */
+
+/* ============== Media Queries (Small Devices) ==============*/
+/* @media screen and (max-width: 600px){
+
+    .container__statsnav nav {
+        position: absolute;
+    }
+} */

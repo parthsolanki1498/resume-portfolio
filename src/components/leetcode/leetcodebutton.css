@@ -1,0 +1,10 @@
+.leetcode-container {
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.leetcode-button {
+    color: var(--color-primary);
+}
+
+/* Rest of your CSS */
