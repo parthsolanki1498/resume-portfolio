@@ -33,17 +33,17 @@
 }
 
 
-/* ============== Media Queries (Medium Devices) ==============*/
-/* @media screen and (max-width: 1024px){
-    .container__statsnav nav {
-        position: absolute;
+/* ============== Media Queries (Medium Devices) ==============*/ 
+@media screen and (max-width: 1024px){
+    .container__statsnav nav, a {
+        display: none;
     }
-} */
+}
 
-/* ============== Media Queries (Small Devices) ==============*/
-/* @media screen and (max-width: 600px){
+/* ============== Media Queries (Small Devices) ============== */
+@media screen and (max-width: 600px){
 
-    .container__statsnav nav {
-        position: absolute;
+    .container__statsnav nav, a {
+        display: none;
     }
-} */
+} 

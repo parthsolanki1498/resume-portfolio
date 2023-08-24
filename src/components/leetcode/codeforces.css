@@ -1,10 +1,10 @@
-.leetcode__stats {
+.codeforces__stats {
     position: relative;
     transition: var(--transition);
     opacity: 50%;
 }
 
-.leetcode__stats img {
+.codeforces__stats img {
     position: absolute;
     top: 20px;
     right: 140px;
@@ -12,6 +12,6 @@
     object-fit: contain;
 }
 
-.leetcode__stats:hover {
+.codeforces__stats:hover {
     opacity: 100%;
 }

@@ -1,17 +1,16 @@
 import React from 'react';
-import './leetcode.css';
-import  UserStats  from './UserStats'; // Import your GraphQL Query component
+import './geeksforgeeks.css';
 
-const Leetcode = () => {
+const Geeksforgeeks = () => {
     return (
-        <div className='leetcode__stats'>
+        <div className='geeksforgeeks__stats'>
           {/* Your existing content */}
           {/* <h1>Welcome to my App!</h1> */}
           {/* Render the UserStats component inside the root element */}
           {/* For example, you can pass the username as a prop */}
           {/* <UserStats username="iZnoGouDAf" /> */}
-          <img src="https://leetcard.jacoblin.cool/iZnoGouDAf?ext=heatmap&?theme=dark"></img>
+          <img src="https://geeks-for-geeks-stats-api-napiyo.vercel.app/?userName=parthsolanki1498"></img>
         </div>
     ); 
 };
-export default Leetcode;
+export default Geeksforgeeks;
